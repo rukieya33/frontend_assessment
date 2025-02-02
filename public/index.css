@@ -5,9 +5,10 @@
     border-radius:50px;
     background-color: #ffffff;
     text-align: center;
+    height: 500px;
 }
 .contentsOfCard{
-    margin:30px;
+    margin:20px;
 }
 body{
     display: flex;
@@ -21,12 +22,12 @@ body{
 }
 #btn:hover{
     background-color:#008000;
-    scale:1.1;
+    scale:1.2;
     border:none;
 }
-/*smaller screen sizes*/
-@media(max-width:767px){
+/*mobile screen sizes*/
+@media(min-width:320px) and (max-width:500px){
     .cardLayout{
-        width:297px;
+        width:279px;
     };
 }
