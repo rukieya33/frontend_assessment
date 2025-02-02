@@ -1,0 +1,26 @@
+.cardLayout{
+    box-shadow: 0 40px 80px rgba(0,0,0,0.1);
+    width: 330px;
+    overflow: hidden;
+    border-radius:50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.contentsOfCard{
+    margin:30px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    background-color:#0000ff;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#btn:hover{
+    background-color:#008000;
+    scale:1.1;
+    border:none;
+}
